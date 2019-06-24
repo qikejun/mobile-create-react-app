@@ -1,0 +1,29 @@
+@import "../../css/element";
+.iconfont{
+  font-size: 42px;
+  color: #888888;
+}
+.navbar{
+  @include flex(row);
+  position: fixed;
+  background: #FFFFFF;
+  box-shadow: 0 -8px 22px 0 rgba(0,0,0,0.08);
+  height: 98px;
+  width: 100%;
+  bottom: 0;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  li{
+    text-align: center;
+    padding-top: 18px;
+    a{
+      text-decoration: none;
+    }
+    p{
+      line-height: 30px;
+      font-size: 20px;
+      color: #888888;
+      letter-spacing: 0;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+@import './../css/element.scss';
+.panel{
+  @include panel;
+}
